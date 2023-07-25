@@ -8,7 +8,7 @@ function convertToRar() {
   }
 
   const zipPromises = [];
-  const totalFilesToProcess = Math.min(files.length, 1000); // Define o limite de 100 arquivos
+  const totalFilesToProcess = Math.min(files.length, 300); // Define o limite de 300 arquivos
 
   async function processFiles() {
     for (let i = 0; i < totalFilesToProcess; i++) {
