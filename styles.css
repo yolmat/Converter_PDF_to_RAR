@@ -19,3 +19,7 @@ input,
 button {
   padding: 0.5rem;
 }
+
+.buttons {
+  margin-bottom: 2rem;
+}
